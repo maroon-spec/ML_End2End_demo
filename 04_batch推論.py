@@ -37,7 +37,8 @@ model_name = f"{prefix}_model"  # ご自分のmodel nameに変更ください
 model_version = 'staging'     # model_version = 'production' ## <= このようにproduction/stagingも指定可能
 
 # Load model from registry
-loaded_model = mlflow.pyfunc.spark_udf(spark, model_uri=f"models:/{model_name}/{model_version}", env_manager="virtualenv")
+#loaded_model = mlflow.pyfunc.spark_udf(spark, model_uri=f"models:/{model_name}/{model_version}", env_manager="virtualenv")
+loaded_model = mlflow.pyfunc.spark_udf(spark, model_uri=f"models:/{model_name}/{model_version}")
 
 # COMMAND ----------
 
