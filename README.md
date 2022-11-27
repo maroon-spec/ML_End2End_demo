@@ -22,5 +22,4 @@ Databricks Machine Learning を体験するデモシナリオになります。
 # 注意
 
 1. Feature Storeが Unity Catalogに対応していないため、このデモではHivemetastoreを利用しております。
-1. MLflow2.0 を利用する場合、DBR12以上が必要です。もしくは pip install mlflow==2.0.0 を最初に実行する必要があります。（4.バッチ推論)ノートブックではpip installを実行しておりますが
-　　　　　　DBR12がリリースされた場合、不要なオプションになります。
+1. MLflow2.0 を利用する場合、DBR12以上が必要です。もしくは pip install mlflow==2.0.0 を最初に実行する必要があります。（4.バッチ推論)ノートブックではpip installを実行しておりますがDBR12がリリースされた場合、不要なオプションになります。
