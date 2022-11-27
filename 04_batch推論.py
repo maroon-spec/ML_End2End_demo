@@ -19,6 +19,9 @@
 # MAGIC Rest Servingについては、MLflowのレジストリUIからデプロイ可能です。
 
 # COMMAND ----------
+# MAGIC %pip install 'mlflow==2.0.0'
+
+# COMMAND ----------
 
 # MAGIC %run ./00_setup
 
