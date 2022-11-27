@@ -1,5 +1,7 @@
 # ML_End2End_demo
 
+version: 1.0.0
+
 Databricks Machine Learning を体験するデモシナリオになります。
 以下の機能を体験できます。
 - Databricks Notebook でのEDA (bamboolib, pyspark pandas etc) 
